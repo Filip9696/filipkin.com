@@ -1,3 +1,9 @@
+$('pre').each(function(){
+    if($(this).attr('tagchecked') !== 'true'){ //checks if already changed tag
+        $(this).text($(this).html()).attr('tagchecked', 'true'); //makes the html into plaintext
+    }
+});
+
 jQuery.extend(jQuery.easing, {
     easeIn: function (x, t, b, c, d) {
         return (t == 0) ? b : c * Math.pow(2, 10 * (t / d - 1)) + b;
@@ -24,8 +30,15 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 $(document).ready(function () {
     $('.scrollspy').scrollSpy({
         getActiveElement: function (id) {
-            if (id == 'home') {
+            var html = $('a[href="#'+'html'+'"]').parent().get(0);
+            if (id === 'home') {
+                $(html).removeClass('active');
                 return $('a[href="#' + 'top' + '"]').parent().get(0);
+            } else if (id.startsWith('h-')) {
+                $(html).addClass('active');
+                return $('a[href="#' + id + '"]');
+            } else {
+                $(html).removeClass('active');
             }
             return $('a[href="#' + id + '"]').parent().get(0);
         }
@@ -107,8 +120,40 @@ $('[class^="proj-"]').each(function (i, elm) {
 });
 
 $(document).ready(function() {
-    $('pre').wrapInner('<code></code>');
-    $('pre code').each(function(i, block) {
+    fixmetotop();
+    $('pre').each(function(i, block) {
         hljs.highlightBlock(block);
     });
 });
+
+function fixmetotop() {
+    var fixmeTop = $('.table-of-contents').offset().top;
+    $(window).scroll(function() {
+        var currentScroll = $(window).scrollTop(),
+            currentScroll = currentScroll + 15,
+            actualBottom = $('#bodybox').offset().top + $('#bodybox').outerHeight(true),
+            heightSideNav = $('.table-of-contents').outerHeight(true);
+        if (currentScroll >= fixmeTop && currentScroll <= actualBottom - heightSideNav) {
+            $('.table-of-contents').css({
+                position: 'fixed',
+                top: '0',
+                bottom: ''
+            });
+        } else {
+            if(currentScroll >= actualBottom - heightSideNav) {
+                $('.table-of-contents').css({
+                    position: 'fixed',
+                    top: '0',
+                    bottom: ''
+                });
+            } else {
+                $('.table-of-contents').css({
+                    position: 'static',
+                    bottom: '',
+                    top: ''
+                });
+            }
+        }
+    });
+}
+

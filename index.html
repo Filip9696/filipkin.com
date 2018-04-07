@@ -218,34 +218,6 @@
                 </p>
                 <a href="https://github.com/Filip9696/filipkin.com" class="btn light-blue">Github</a>
             </div>
-            <!--
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-oa"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-ob"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-pr"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-d"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-ts"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-r"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-ar"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-mdh"></h5>
-            </div>
-            <div class="col s12 m6 l4 center project" id="">
-                <h5 class="proj-ed"></h5>
-            </div>-->
             <!-- Template
             status codes:
             proj-ed Early Development
@@ -270,8 +242,91 @@
             -->
         </div>
     </div>
-    <div class="section scrollspy" id="html">
+    <div class="section" id="html">
         <h2 class="light-blue-text text-accent-4">HTML Showcase</h2>
+        <h4>Small things I made, not big enough for their own Github Repo</h4>
+        <div class="row">
+            <div class="col s11 m9 l10" id="bodybox">
+                <div class="row section scrollspy" id="h-cbtac">
+                    <div class="divider"></div>
+                    <div class="col s12 m8">
+<pre>
+<h5 class="proj-oa"></h5>
+<h5 class="proj-ob"></h5>
+<h5 class="proj-pr"></h5>
+<h5 class="proj-d"></h5>
+<h5 class="proj-ts"></h5>
+<h5 class="proj-r"></h5>
+<h5 class="proj-ar"></h5>
+<h5 class="proj-mdh"></h5>
+<h5 class="proj-ed"></h5>
+</pre>
+                        <pre>
+var projcodes = {
+    'proj-ed': ['Early Development', 'light-blue-text'],
+    'proj-mdh': ['Mid-Development Hell', 'red-text'],
+    'proj-ar': ['Almost Released', 'teal-text'],
+    'proj-r': ['Released', 'green-text'],
+    'proj-ts': ['Temporarily Suspended', 'deep-orange-text'],
+    'proj-d': ['Dead', 'red-text'],
+    'proj-pr': ['Privately Released', 'green-text'],
+    'proj-oa': ['Open Alpha', 'cyan-text'],
+    'proj-ob': ['Open Beta', 'cyan-text']
+};
+
+function hasClasses(elm, selectors) {
+    for (var i in selectors) {
+        if ($(elm).hasClass(selectors[i]))
+            return selectors[i];
+    }
+    return false;
+}
+
+$('[class^="proj-"]').each(function (i, elm) {
+    var thisclass = hasClasses(elm, Object.keys(projcodes));
+    if (thisclass !== false) {
+        elm.innerHTML = projcodes[thisclass][0];
+        $(elm).addClass(projcodes[thisclass][1]);
+    }
+});
+</pre>
+                    </div>
+                    <div class="col s12 m4">
+                        <h4>Class based text and color</h4>
+                        <div class="example-code">
+                            <h5 class="proj-oa"></h5>
+                            <h5 class="proj-ob"></h5>
+                            <h5 class="proj-pr"></h5>
+                            <h5 class="proj-d"></h5>
+                            <h5 class="proj-ts"></h5>
+                            <h5 class="proj-r"></h5>
+                            <h5 class="proj-ar"></h5>
+                            <h5 class="proj-mdh"></h5>
+                            <h5 class="proj-ed"></h5>
+                        </div>
+                    </div>
+                </div>
+                <!--Template
+                <div class="row section scrollspy" id="h-">
+                    <div class="divider"></div>
+                    <div class="col s12 m8">
+
+                    </div>
+                    <div class="col s12 m4">
+                        <h4></h4>
+                    </div>
+                </div>
+                -->
+            </div>
+            <div class="col s1 m3 l2">
+                <ul id="toc" class="section table-of-contents">
+                    <li><a class="truncate" href="#h-cbtac">Class based text and color</a></li>
+                    <!--Template
+                    <li><a class="truncate" href="#h-"></a></li>
+                    -->
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 <script src="vendor/jquery/jquery.min.js"></script>
