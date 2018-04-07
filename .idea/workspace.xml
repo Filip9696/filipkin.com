@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8863157-610f-4f1f-88db-cce1e1188672" name="Default" comment="added filipkin.com to projects">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.ignore" afterDir="false" />
+    <list default="true" id="c8863157-610f-4f1f-88db-cce1e1188672" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,49 +17,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="312" selection-start-line="312" selection-end-line="312" />
+            <state relative-caret-position="565">
+              <caret line="319" column="43" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
               <folding>
                 <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git.ignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/git.ignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resume.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="103" column="71" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resume.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resume.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css-plain.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/css-plain.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -104,8 +66,8 @@
       <find>center</find>
       <find>class=&quot;flow-text&quot;</find>
       <find>s12 m6 l3</find>
-      <find>']</find>
       <find>html-proj</find>
+      <find>']</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;section scrollspy&quot;</replace>
@@ -119,11 +81,12 @@
       <replace>flow-text description</replace>
       <replace>center project</replace>
       <replace>s12 m6 l4</replace>
-      <replace>-text']</replace>
       <replace>scrollspy</replace>
+      <replace>-text']</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -139,8 +102,8 @@
         <option value="$PROJECT_DIR$/img/css-plain.svg" />
         <option value="$PROJECT_DIR$/resume.css" />
         <option value="$PROJECT_DIR$/resume.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/git.ignore" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -167,6 +130,16 @@
             <path>
               <item name="filipkin.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="filipkin.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="filipkin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filipkin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="resume.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="filipkin.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="filipkin.com" type="462c0819:PsiDirectoryNode" />
+              <item name="resume.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +190,7 @@
       <workItem from="1523124634430" duration="158000" />
       <workItem from="1523124867122" duration="3465000" />
       <workItem from="1523128541225" duration="62000" />
-      <workItem from="1523128638175" duration="13710000" />
+      <workItem from="1523128638175" duration="13995000" />
     </task>
     <task id="LOCAL-00001" summary="added filipkin.com to projects">
       <created>1523139460027</created>
@@ -226,11 +199,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523139460027</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed webstorm folder">
+      <created>1523143143417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523143143418</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added HTML Showcase">
+      <created>1523143160874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523143160874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29958000" />
+    <option name="totallyTimeSpent" value="30243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
@@ -265,7 +252,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added filipkin.com to projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="added filipkin.com to projects" />
+    <MESSAGE value="Removed webstorm folder" />
+    <MESSAGE value="Added HTML Showcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HTML Showcase" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -407,12 +396,25 @@
     <entry file="file://$PROJECT_DIR$/img/css-plain.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/git.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resume.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="103" column="71" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,19 +425,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="312" selection-start-line="312" selection-end-line="312" />
+        <state relative-caret-position="565">
+          <caret line="319" column="43" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
           <folding>
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/git.ignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
