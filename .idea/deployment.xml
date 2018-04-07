@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="filipkin.com" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="filipkin.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/how-much" />
+            <excludedPath path="/logs" />
+            <excludedPath path="/old" />
+            <excludedPath path="/subnumx" />
+            <excludedPath path="/u" />
+            <excludedPath path="/whib" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

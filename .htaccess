@@ -1,0 +1,9 @@
+RedirectMatch /error/403.html ^/mail/data?$
+ErrorDocument 400 /error_pages/400.html
+ErrorDocument 403 /error_pages/403.html
+ErrorDocument 404 /error_pages/404.html
+ErrorDocument 500 /error_pages/500.html
+ErrorDocument 501 /error_pages/501.html
+ErrorDocument 502 /error_pages/502.html
+ErrorDocument 503 /error_pages/503.html
+ErrorDocument 504 /error_pages/504.html
