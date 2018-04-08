@@ -273,21 +273,16 @@ var projcodes = {
     'proj-ob': ['Open Beta', 'cyan-text']
 };
 
-function hasClasses(elm, selectors) {
-    for (var i in selectors) {
-        if ($(elm).hasClass(selectors[i]))
-            return selectors[i];
+document.querySelectorAll('[class^="proj-"]').forEach(elm => {
+    for(var i in selectors) {
+        let target_class = selectors[i];
+        if(elm.classList.contains()) {
+            elm.innerHTML = projcodes[target_class][0];
+            elm.classList.add(projcodes[target_class][1]);
+            return;
+        }
     }
-    return false;
-}
-
-$('[class^="proj-"]').each(function (i, elm) {
-    var thisclass = hasClasses(elm, Object.keys(projcodes));
-    if (thisclass !== false) {
-        elm.innerHTML = projcodes[thisclass][0];
-        $(elm).addClass(projcodes[thisclass][1]);
-    }
-});
+})
 </pre>
                     </div>
                     <div class="col s12 m4">

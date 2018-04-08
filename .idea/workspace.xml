@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8863157-610f-4f1f-88db-cce1e1188672" name="Default" comment="">
+    <list default="true" id="c8863157-610f-4f1f-88db-cce1e1188672" name="Default" comment="Pure js">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="286" column="26" lean-forward="true" selection-start-line="286" selection-start-column="26" selection-end-line="286" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -29,8 +31,26 @@
       <file leaf-file-name="resume.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+            <state relative-caret-position="495">
+              <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1058" selection-start-column="1058" selection-end-column="1058" />
             </state>
           </provider>
         </entry>
@@ -123,9 +143,10 @@
         <option value="$PROJECT_DIR$/img/css-colored.svg" />
         <option value="$PROJECT_DIR$/img/css-plain.svg" />
         <option value="$PROJECT_DIR$/git.ignore" />
-        <option value="$PROJECT_DIR$/resume.js" />
         <option value="$PROJECT_DIR$/resume.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resume.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -213,7 +234,7 @@
       <workItem from="1523124867122" duration="3465000" />
       <workItem from="1523128541225" duration="62000" />
       <workItem from="1523128638175" duration="16510000" />
-      <workItem from="1523146145479" duration="321000" />
+      <workItem from="1523146145479" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="added filipkin.com to projects">
       <created>1523139460027</created>
@@ -250,11 +271,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523146289612</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added specific language to these">
+      <created>1523146487648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523146487648</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I just relized this was incorrect">
+      <created>1523146513562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1523146513562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33079000" />
+    <option name="totallyTimeSpent" value="34325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
@@ -293,7 +328,9 @@
     <MESSAGE value="Added HTML Showcase" />
     <MESSAGE value="Removed shadows from h5 and h6" />
     <MESSAGE value="Added padding to inline &lt;code&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added padding to inline &lt;code&gt;" />
+    <MESSAGE value="added specific language to these" />
+    <MESSAGE value="I just relized this was incorrect" />
+    <option name="LAST_COMMIT_MESSAGE" value="I just relized this was incorrect" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -446,20 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git.ignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resume.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -470,10 +493,31 @@
     <entry file="file://$PROJECT_DIR$/resume.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/resume.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1058" selection-start-column="1058" selection-end-column="1058" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="286" column="26" lean-forward="true" selection-start-line="286" selection-start-column="26" selection-end-line="286" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
