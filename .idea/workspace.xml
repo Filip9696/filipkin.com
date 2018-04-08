@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8863157-610f-4f1f-88db-cce1e1188672" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="195">
+              <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -35,13 +35,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -119,8 +124,8 @@
         <option value="$PROJECT_DIR$/img/css-plain.svg" />
         <option value="$PROJECT_DIR$/git.ignore" />
         <option value="$PROJECT_DIR$/resume.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resume.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -208,7 +213,7 @@
       <workItem from="1523124867122" duration="3465000" />
       <workItem from="1523128541225" duration="62000" />
       <workItem from="1523128638175" duration="16510000" />
-      <workItem from="1523146145479" duration="10000" />
+      <workItem from="1523146145479" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="added filipkin.com to projects">
       <created>1523139460027</created>
@@ -231,11 +236,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523143160874</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed shadows from h5 and h6">
+      <created>1523146179972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523146179972</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added padding to inline &lt;code&gt;">
+      <created>1523146289612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523146289612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32768000" />
+    <option name="totallyTimeSpent" value="33079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
@@ -245,6 +264,7 @@
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" order="11" visible="true" weight="0.32867885" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -258,7 +278,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="11" weight="0.3290461" />
       <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
@@ -272,7 +291,9 @@
     <MESSAGE value="added filipkin.com to projects" />
     <MESSAGE value="Removed webstorm folder" />
     <MESSAGE value="Added HTML Showcase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HTML Showcase" />
+    <MESSAGE value="Removed shadows from h5 and h6" />
+    <MESSAGE value="Added padding to inline &lt;code&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added padding to inline &lt;code&gt;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -417,19 +438,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/highlightjs/highlight.pack.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/git.ignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -442,8 +462,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="270">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="262" column="22" selection-start-line="262" selection-start-column="22" selection-end-line="262" selection-end-column="22" />
         </state>
       </provider>
     </entry>
