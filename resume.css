@@ -32,6 +32,20 @@ pre {
 
 .section:not(#home) { padding-top: 6em }
 
+.social-icon {
+    font-size: 32px !important;
+    height: 64px !important;
+    line-height: 64px !important;
+}
+
+#discord-social:hover::after,#discord-social:focus::after {
+    content: ' Filip96#8066';
+}
+
+#phone-social:hover::after,#phone-social:focus::after {
+    content: ' 248-946-6028';
+}
+
 .programming-language-icon-list {
     position: relative;
     text-align: center;

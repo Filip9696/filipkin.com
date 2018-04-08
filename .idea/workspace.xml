@@ -4,6 +4,10 @@
     <list default="true" id="c8863157-610f-4f1f-88db-cce1e1188672" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/resume.min.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,12 +24,29 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="319" column="43" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
+            <state relative-caret-position="523">
+              <caret line="87" column="81" selection-start-line="87" selection-start-column="81" selection-end-line="87" selection-end-column="81" />
               <folding>
                 <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resume.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -66,8 +87,10 @@
       <find>center</find>
       <find>class=&quot;flow-text&quot;</find>
       <find>s12 m6 l3</find>
-      <find>html-proj</find>
       <find>']</find>
+      <find>, background-color 1s ease-out</find>
+      <find>html-proj</find>
+      <find>width = '(...)';</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div class=&quot;section scrollspy&quot;</replace>
@@ -81,8 +104,9 @@
       <replace>flow-text description</replace>
       <replace>center project</replace>
       <replace>s12 m6 l4</replace>
-      <replace>scrollspy</replace>
       <replace>-text']</replace>
+      <replace>scrollspy</replace>
+      <replace>width = '$1px';</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -100,9 +124,9 @@
         <option value="$PROJECT_DIR$/vendor/font-awesome/js/filip-pack.js" />
         <option value="$PROJECT_DIR$/img/css-colored.svg" />
         <option value="$PROJECT_DIR$/img/css-plain.svg" />
-        <option value="$PROJECT_DIR$/resume.css" />
-        <option value="$PROJECT_DIR$/resume.js" />
         <option value="$PROJECT_DIR$/git.ignore" />
+        <option value="$PROJECT_DIR$/resume.js" />
+        <option value="$PROJECT_DIR$/resume.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -190,7 +214,7 @@
       <workItem from="1523124634430" duration="158000" />
       <workItem from="1523124867122" duration="3465000" />
       <workItem from="1523128541225" duration="62000" />
-      <workItem from="1523128638175" duration="13995000" />
+      <workItem from="1523128638175" duration="16377000" />
     </task>
     <task id="LOCAL-00001" summary="added filipkin.com to projects">
       <created>1523139460027</created>
@@ -217,7 +241,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30243000" />
+    <option name="totallyTimeSpent" value="32625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="6" />
@@ -263,7 +287,6 @@
           <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
           <folding>
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -403,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="103" column="71" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resume.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -418,18 +434,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="146" column="30" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="30" />
+        <state relative-caret-position="75">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="319" column="43" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
+        <state relative-caret-position="523">
+          <caret line="87" column="81" selection-start-line="87" selection-start-column="81" selection-end-line="87" selection-end-column="81" />
           <folding>
             <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
