@@ -65,19 +65,22 @@ function hasClasses(elm, selectors) {
     return false;
 }
 
-$('[class^="proj-"]').each(function (i, elm) {
-    var thisclass = hasClasses(elm, Object.keys(projcodes));
-    if (thisclass !== false) {
-        elm.innerHTML = projcodes[thisclass][0];
-        $(elm).addClass(projcodes[thisclass][1]);
-    }
+document.querySelectorAll('[class^="proj-"]').forEach(function(elm) {
+	for(var i in selectors) {
+		let target_class = selectors[i];
+		if(elm.classList.contains()) {
+			elm.innerHTML = projcodes[target_class][0];
+			elm.classList.add(projcodes[target_class][1]);
+			return;
+		}
+	}
 });
 
-$(document).ready(function() {
-    fixmetotop();
-    $('pre').each(function(i, block) {
-        hljs.highlightBlock(block);
-    });
+document.addEventListener('DOMContentLoaded', function() {
+	fixmetotop();
+	document.getElementsByTagName('pre').forEach(function(block) {
+		hljs.highlightBlock(block);
+	});
 });
 
 function fixmetotop() {
