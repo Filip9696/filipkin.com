@@ -218,6 +218,15 @@
                 </p>
                 <a href="https://github.com/Filip9696/filipkin.com" class="btn light-blue">Github</a>
             </div>
+            <div class="col s12 m6 l4 center project" id="">
+                <h4>RetailManager</h4>
+                <h5 class="proj-r"></h5>
+                <p class="flow-text">
+                    I created this program at the end of my Java class as the final project. Currently have not used java
+                    since then.
+                </p>
+                <a href="https://github.com/Filip9696/RetailManager" class="btn light-blue">Github</a>
+            </div>
             <!-- Template
             status codes:
             proj-ed Early Development
